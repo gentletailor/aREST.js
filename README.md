@@ -7,7 +7,7 @@ This fork of aREST.js is a JavaScript library that was made to easily control yo
 You can simply embed aREST.js in an HTML page by including the file from the CDN:
 
 ```shell
-https://cdn.rawgit.com/gentletailor/aREST.js/master/aREST.js
+https://cdn.jsdelivr.net/gh/gentletailor/aREST.js@master/aREST.js
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Let's see a simple example. We are going to create a new aREST device, set pin n
 You first need to include the required libraries in your HTML page:
 
 ```html
-<script type="text/javascript" src="https://cdn.rawgit.com/gentletailor/aREST.js/master/aREST.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/gentletailor/aREST.js@master/aREST.js"></script>
 <script type="text/javascript" src="script.js"></script>
 ```
 
