@@ -1,4 +1,4 @@
-Device(address) {
+function Device(address) {
   this.address = address;
 
   this.pinMode = function (pin, state) {
