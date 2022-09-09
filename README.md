@@ -1,6 +1,6 @@
 # aREST.js
 
-aREST.js is a JavaScript library that was made to easily control your projects running aREST. It can be used with a simple web browser without Node.js. It works with all the aREST projects using HTTP communication, for example using Arduino with the CC3000 WiFi chip, the Ethernet shield, or the WiFi shield. It also works with the ESP8266 WiFi chip.
+This fork of aREST.js is a JavaScript library that was made to easily control your projects running aREST without the need of jQuery. It can be used with a simple web browser without Node.js. It works with all the aREST projects using HTTP communication, for example using Arduino with the CC3000 WiFi chip, the Ethernet shield, or the WiFi shield. It also works with the ESP8266 WiFi chip.
 
 ## Installation
 
@@ -17,7 +17,7 @@ You can simply create a new device in the JavaScript part of your project by giv
 ```js
 var device = new Device(ip_address);
 ```
-
+Please provide http:// or https:// together with the ip adress, depending on how your Arduino webserver is configured.
 ## Getting Started
 
 Let's see a simple example. We are going to create a new aREST device, set pin number 6 to an output, and then turn pin 6 to a HIGH state.
